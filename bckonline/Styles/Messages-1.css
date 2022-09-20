@@ -1,0 +1,19 @@
+﻿.InstructionMessage
+{
+	color:Maroon;
+	float :left;
+	font-style:italic;
+	font-size: small;
+	height :7px;
+	word-break:break-all;
+
+}
+
+.lblMessage
+{
+	color:Red ;
+	float :left;
+	font-size: small;
+	height :auto ;
+	word-break:break-all;
+}
