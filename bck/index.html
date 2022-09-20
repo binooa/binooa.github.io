@@ -1,0 +1,511 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="keywords" content="Our purpose is to promote and maintain excellence in the quality of legal services provided by Lawyers to support the rule of law. We do this by setting standards of entry to the profession and by ensuring that professional practice puts consumers first">
+	<meta name="description" content="Our purpose is to promote and maintain excellence in the quality of legal services provided by Lawyers to support the rule of law. We do this by setting standards of entry to the profession and by ensuring that professional practice puts consumers first">
+	<meta name="generator" content="Cloud Data Labs - www.clouddatalabs.net">
+	<title>Home : Bar Council of Kerala >> The Bar Council of Kerala is the professional body for Lawyers in Kerala.
+	</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<meta http-equiv="content-language" content="en">
+	<meta name="generator" content="Cloud Data Labs">
+	<meta name="robots" content="index,follow">
+	<link id="page_favicon" href="img/favicon.ico" rel="icon" type="image/x-icon">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen">
+	<link rel="stylesheet" href="css/turquoise.css">
+
+	<!-- Base JS -->
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- Revolution Slider -->
+	<script src="js/jquery.themepunch.plugins.min.js"></script>
+	<script src="js/jquery.themepunch.revolution.min.js"></script>
+	<script src="js/revolution-slider-options.js"></script>
+
+	<!-- Prety photo -->
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script>
+	    $(document).ready(function () {
+	        blink("#RegButton", 50, 1000); //blink a div with the ID of myDiv
+
+	        var w = $(window).width();
+	        if (w > 400) {
+	            $("#DisplayPageDiv,#NewsEventDiv").css("height", $(".LeftMenuDiv").height());
+	        }
+	        else {
+	            $("#DisplayPageDiv,#NewsEventDiv").css("height", "500px");
+	            $("#DisplayPageDiv,#NewsEventDiv").css("over-flow", "auto");
+	        }
+	        //$("#DisplayPageDiv,#NewsEventDiv").css("min-height", "900px");
+	        //$("#DisplayPageDiv,#NewsEventDiv").css("height", "auto");
+	        $("#MScroll").css("height", $(".NewsEventDiv").height());
+	        $("#MScroll").css("width", $(".NewsEventDiv").width() - 20);
+	        $("#DisplayPageDiv").html(
+				'<div id="LoadingDiv"><img src="img/waiting.gif"/><br/><p>Loading....</p></div>');
+	        $("#DisplayPageDiv").attr("src", 'Main.html');
+	        $("#NewsEventDiv").attr("src", 'NewsAndEvents.html');
+	        $("#LiveNews").attr("src", 'LiveNews.html');
+
+	        //Menu Activity Tracking...............................................................
+	        $(".menu li a,.mob-menu li a, .LeftMenu li a").click(function (e) {
+	            var url = $(this).attr('href');
+
+	            if (url.length > 2) {
+	                if (url == "bckonline/SignUp_Frm.aspx") {
+	                    url = "https://barcouncilkerala.org/" + url;
+	                    window.open(url);
+	                } else if (url == "bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx") {
+	                    url = "https://barcouncilkerala.org/" + url;
+	                    window.open(url);
+	                } else if (url == "bckonline/Home.aspx") {
+	                    url = "https://barcouncilkerala.org/" + url;
+	                    window.open(url);
+	                }
+	                else if (url == "BCK_WLF_ONLINE/LoginUser.aspx") {
+	                    url = "https://barcouncilkerala.org/" + url;
+	                    window.open(url);
+	                }
+	                else {
+	                    $("#DisplayPageDiv").html(
+							'<div id="LoadingDiv"><img src="img/waiting.gif"/><br/><p>Loading....</p></div>'
+						);
+	                    $("#DisplayPageDiv").attr("src", url);
+	                }
+	            }
+
+	            e.preventDefault();
+	        });
+
+	        $(".submenu li a").click(function (e) {
+	            var url = $(this).attr('href');
+
+	            if (url.length > 2) {
+	                if (url == "bckonline/SignUp_Frm.aspx") {
+    			    url = "https://barcouncilkerala.org/" + url;
+	                    window.open(url);
+	                } else if (url == "bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx") {
+	                  url = "https://barcouncilkerala.org/" + url;
+	                  window.open(url);
+	                } else if (url == "bckonline/Home.aspx") {
+	                    window.open(url);
+	                } else {
+	                    $("#DisplayPageDiv").html(
+							'<div id="LoadingDiv"><img src="img/waiting.gif"/><br/><p>Loading....</p></div>'
+						);
+	                    $("#DisplayPageDiv").attr("src", url);
+	                }
+	            }
+	            $("#mobMenu").addClass("menu");
+	            $("#mobMenu").removeClass("mobMenuIntro");
+
+	            e.preventDefault();
+	        });
+
+
+
+	        //End...............................................................
+
+	    });  //End $-----------
+
+
+
+		function blink(elem, times, speed) {
+			if (times > 0 || times < 0) {
+				if ($(elem).hasClass("blink")) {
+					$(elem).removeClass("blink");
+					$(elem).addClass("Notblink");
+				} else {
+					$(elem).removeClass("Notblink");
+					$(elem).addClass("blink");
+				}
+			}
+
+
+			if (times > 0 || times < 0) {
+				setTimeout(function () {
+					blink(elem, times, speed);
+				}, speed);
+				times -= .5;
+			}
+		}
+	</script>
+
+	<style type="text/css">
+		.blink {
+			color: red !important;
+			background-color: lime;
+		}
+
+		.Notblink {
+			color: lime !important;
+			background-color: #FA095D;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="main">
+
+
+		<!-- HEADER 
+	============================================= -->
+		<div class="header">
+			<div class="layout clearfix" style="width:auto;">
+				<div class="mob-layout wrap-left">
+					<!-- Logo -->
+					<a href="index.html" class="logo"><img src="img/logo.png" alt="Bar Council of Kerala" style="height:75px"></a>
+					<span class="TitleText">Bar Council of Kerala</span>
+					<!-- Mobile Navigation Button -->
+					<div class="btn-menu icon-reorder"></div>
+					<!-- Navigation -->
+					<ul id="mobMenu" class="menu">
+						<!-- Item 1 -->
+						<li>
+							<a href="Main.html" id="Menu01" class="active">Home</a>
+						</li>
+						<!-- Item 2 -->
+						<li>
+							<a href="#" id="Menu02">About Us</a>
+							<ul class="submenu">
+								<li><a href="KnowCouncil.html">Know the Council</a></li>
+								<li><a href="History.html">History</a></li>
+								<li><a href="OfficeBearers.html">Office Bearers</a></li>
+								<li><a href="Administrators.html">Administrative Wings</a></li>
+								<li><a href="gallary.html">Picture Gallery</a></li>
+								<li><a href="TermsAndConditions.html">Terms & Conditions</a></li>
+							</ul>
+						</li>
+						<!-- Item 3 -->
+						<li>
+							<a href="#" id="Menu03">Bar Council of Kerala</a>
+							<ul class="submenu">
+								<li><a href="PDFs/FILINGCOMPLAINTS.pdf">Filing Complaint</a></li>
+								<li><a href="ChangeOfAddress.html">Change of Address</a></li>
+								<li><a href="CouncilMembers.html">Bar Council Members</a></li>
+								<li><a href="PastChairmen.html">Past Chairmen</a></li>
+								<li><a href="PastCouncilMembers.html">Past Council Members</a></li>
+								<li><a>BCK Rules</a></li>
+								<li><a href="PDFs/election_rules.pdf">BCK Election Rules</a></li>
+								<li><a href="BCKNotifications.html">Notifications</a></li>
+								<li><a href="BckNotices.html">Notices</a></li>
+								<li><a href="PDFs/financialrules.pdf">Financial Assistance</a></li>
+								<li><a href="bckonline/AdvocatesDirectory.aspx.html">Advocate Directory</a></li>
+								<li><a href="tenders.html">Tenders</a></li>
+								<li><a href="PDFs/RTIOfficers-20-03-2022.pdf">RTI</a></li>
+							</ul>
+						</li>
+						<!-- Item 4 -->
+						<li>
+							<a href="#" id="Menu04">Bar Council of India</a>
+							<ul class="submenu">
+								<li><a href="#">Bar Council of India</a></li>
+								<li><a href="TransferofAdvocates.html">Transfer of Advocates</a></li>
+								<li><a href="#">BCI Rules</a></li>
+								<li><a href="BCINotifications.html">Notifications</a></li>
+								<li><a href="OtherStateBar.html">Other State Bar</a></li>
+								<li><a href="BCIWelfareFund.html">BCI Welfare Fund</a></li>
+								<li><a href="PDFs/list_of_law_colleges.pdf">Law Colleges Recognize By BCI</a></li>
+							</ul>
+						</li>
+						<!-- Item 5 -->
+						<li>
+							<a href="#" id="Menu05">Welfare Fund</a>
+							<ul class="submenu">
+								<li><a href="Admission.html">Admission</a></li>
+								<li><a href="ChangeofNominee.html">Change of nominee</a></li>
+								<li><a href="SuspensionAndResumption.html">Suspension and Resumption</a></li>
+								<li><a href="RemittanceofAnnualContribution.html">Remittance of Annual Contribution</a>
+								</li>
+								<li><a href="#">Payment from the fund</a></li>
+								<li><a href="WelfareFundStamps.html">Welfare fund Stamps</a></li>
+
+							</ul>
+						</li>
+
+						<!-- Item 6 -->
+						<li>
+							<a href="#" id="Menu06">Enrolment Details</a>
+							<ul class="submenu">
+								<li><a href="bckonline/LoginStatusMessage.aspx.html" target="_new">Online Registration</a></li>
+								<li><a href="Qualification.html" target="_new">Qualification</a></li>
+								<li><a href="Disqualifications.html">Disqualification</a></li>
+								<li><a href="bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx.html">Instruction</a></li>
+								<li><a href="bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx.html">Enrolment
+										Registration</a></li>
+								<li><a href="PDFs/fee%20structure%202021%20enrolment.pdf">Fee Structure</a></li>
+								<li><a href="DressCode.html">Dress Code</a></li>
+								<li><a>Documents Required</a></li>
+								<li><a>Other Details</a></li>
+								<li><a href="ProfessionalEtiquette.html">Professional Etiquette</a></li>
+								<li><a href="Restrictions.html">Restrictions</a></li>
+								<li><a href="SuspensionAndResumptionOfPractice.html">Suspension of Practice</a></li>
+								<li><a href="SuspensionAndResumptionOfPractice.html">Resumption of Practice</a></li>
+							</ul>
+						</li>
+						<!-- Item 7 -->
+						<li><a href="#" id="Menu07">Downloads</a>
+							<ul class="submenu">
+								<li><a href="ApplicationForms.html">Application Forms</a></li>
+								<li><a href="ActAndRules.html">Act & Rules</a></li>
+							</ul>
+						</li>
+						<!-- Item 8 -->
+						<li><a href="ContactUs.html" id="Menu08">Contact Us</a></li>
+						<!--<ul class="mobileButtonMenu">
+							<li><a id="" style="background-color: #FA095D;color:Yellow;"
+									href="bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx">Online Enrolment
+									Registration</a> </li>
+							<li><a style="background-color: #FA095D;color:Yellow;" href="bckonline/Home.aspx">Login</a>
+							</li>
+							<li style="display:none"><a style="background-color: #FA095D;color:Yellow;" href="BCK_WLF_ONLINE/LoginUser.aspx">KAWF Login</a></li>
+						</ul>-->
+					</ul>
+
+				</div>
+
+			</div>
+		</div>
+		<!-- END HEADER 
+	============================================= -->
+
+
+		<!-- FEATURED CONTENT
+	============================================= -->
+		<div id="FeaturedDiv" class="content-featured">
+			<div class="layout">
+				<table style="width:100%; border:0px;">
+					<tr>
+						<td style="width:100%;overflow:hidden;height:20px">
+							<marquee behavior="scroll" direction="left" width="150%">
+								<iframe id="LiveNews" style="width:100%;height:20px;border:0px;">
+									News and Event Page
+								</iframe>
+							</marquee>
+						</td>
+					</tr>
+				</table>
+
+
+			</div>
+
+			<div class="BottomMenu" style='z-index:99999;opacity:1.5;'>
+				<ul class="menu">
+                    <!--<li  ><a id="RegButton" style="color:#FA095D;font-size:25px; "  target="_blank" href ="bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx">Online Enrolment Registration</a> </li>-->
+                    <li>
+                        <a id="RegButton" style="color:#FA095D;" href="bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx.html">
+                            Online Enrolment Registration
+                        </a>
+                    </li>
+                    <li><a style="background-color: #FA095D;color:Yellow;" href="bckonline/Home.aspx.html">Login</a> </li>
+                    <li>
+                        <a style="background-color: #3e72c3;color:yellow;" href="BCK_WLF_ONLINE/Under_Maintenance.aspx.html">KAWF Login</a>
+                    </li>
+                </ul>
+			</div>
+
+		</div>
+		<!-- END FEATURED CONTENT
+	============================================= -->
+
+		<!-- CONTENT 
+	============================================= -->
+		<!---Page Content Division 
+    ============================================= -->
+		<!-- <div id="PageDisplayDiv" class="fullwidthbanner-container top-shadow" 
+    		style="display:none;max-height:none !important;">
+		<div class="layout">
+    		<div id="PageContent" style="height:auto; overflow-y:auto !important;"> </div>
+         </div>
+    </div>-->
+
+
+		<div id="ContentDiv" class="content">
+			<!--Left Menu Division-->
+			<div class="LeftMenuDiv">
+				<ul class="LeftMenu" style="display:block">
+					<li><a href="KnowCouncil.html">Know the Council</a></li>
+					<li><a href="History.html">History</a></li>
+					<li><a href="OfficeBearers.html">Office Bearers</a></li>
+					<li><a href="Administrators.html">Administrative Wings</a></li>
+					<li><a href="gallary.html">Picture Gallery</a></li>
+					<li><a href="TermsAndConditions.html">Terms & Conditions</a></li>
+				</ul>
+				<div class="SubTitle">Bar Council of Kerala</div>
+				<ul class="LeftMenu" style="display:block">
+					<li><a href="PDFs/FILINGCOMPLAINTS.pdf">Filing Complaint</a></li>
+				<li><a href="ChangeOfAddress.html">Change of Address</a></li>
+					<li><a href="CouncilMembers.html">Bar Council Members</a></li>
+					<li><a href="PastChairmen.html">Past Chairmen</a></li>
+					<li><a href="PastCouncilMembers.html">Past Council Members</a></li>
+					<li><a>BCK Rules</a></li>
+					<li><a href="PDFs/election_rules.pdf">BCK Election Rules</a></li>
+					<li><a href="BCKNotifications.html">Notifications</a></li>
+					<li><a href="BckNotices.html">Notices</a></li>
+					<li><a href="PDFs/financialrules.pdf">Financial Assistance</a></li>
+					<li><a href="bckonline/AdvocatesDirectory.aspx.html">Advocate Directory</a></li>
+					<li><a href="PDFs/RTIOfficers-20-03-2022.pdf">RTI</a></li>
+				</ul>
+				<div class="SubTitle">Bar Council of India</div>
+				<ul class="LeftMenu" style="display:block">
+					<li><a href="#">Bar Council of India</a></li>
+					<li><a href="TransferofAdvocates.html">Transfer of Advocates</a></li>
+					<li><a href="#">BCI Rules</a></li>
+					<li><a href="BCINotifications.html">Notifications</a></li>
+					<li><a href="OtherStateBar.html">Other State Bar</a></li>
+					<li><a href="BCIWelfareFund.html">BCI Welfare Fund</a></li>
+					<li><a href="PDFs/list_of_law_colleges.pdf">Law Colleges Recognize By BCI</a></li>
+				</ul>
+
+				<div class="SubTitle">Welfare Fund</div>
+				<ul class="LeftMenu" style="display:block">
+					<li><a href="Admission.html">Admission</a></li>
+					<li><a href="ChangeofNominee.html">Change of nominee</a></li>
+					<li><a href="SuspensionAndResumption.html">Suspension and Resumption</a></li>
+					<li><a href="RemittanceofAnnualContribution.html">Remittance of Annual Contribution</a></li>
+					<li><a href="#">Payment from the fund</a></li>
+					<li><a href="WelfareFundStamps.html">Welfare fund Stamps</a></li>
+				</ul>
+
+				<div class="SubTitle">Enrolment Details</div>
+				<ul class="LeftMenu" style="display:block">
+					<li><a href="bckonline/LoginStatusMessage.aspx.html" target="_new">Online Registration</a></li>
+					<li><a href="Qualification.html">Qualification</a></li>
+					<li><a href="Disqualifications.html">Disqualification</a></li>
+					<li><a href="bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx.html">Instruction</a></li>
+					<li><a target="_new" href="bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx.html">Enrolment
+							Registration</a></li>
+
+					<li><a href="DressCode.html">Dress Code</a></li>
+					<li><a>Documents Required</a></li>
+					<li><a>Other Details</a></li>
+					<li><a href="ProfessionalEtiquette.html">Professional Etiquette</a></li>
+					<li><a href="Restrictions.html">Restrictions</a></li>
+					<li><a href="SuspensionAndResumptionOfPractice.html">Suspension of Practice</a></li>
+					<li><a href="SuspensionAndResumptionOfPractice.html">Resumption of Practice</a></li>
+				</ul>
+				<div class="SubTitle">Downloads</div>
+				<ul class="LeftMenu" style="display:block">
+					<li><a href="ApplicationForms.html">Application Forms</a></li>
+					<li><a href="ActAndRules.html">Act & Rules</a></li>
+				</ul>
+
+			</div>
+			<!--Middle Content Display Division-->
+			<div class="ContentDisplayDiv">
+                <ul class="mobileButtonMenu">
+                    <!--<li  ><a id="RegButton" style="color:#FA095D;font-size:25px; "  target="_blank" href ="bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx">Online Enrolment Registration</a> </li>-->
+                    <li>
+                        <a id="" style="background-color: #FA095D;color:Yellow;" href="bckonline/INSTRUCTIONS-TO-CANDIDATES-FOR-ENROLMENT.aspx.html">
+                            Online Enrolment
+                            Registration
+                        </a>
+                    </li>
+                    <li>
+                        <a style="background-color: #FA095D;color:Yellow;" href="bckonline/Home.aspx.html">Login</a>
+                    </li>
+                    <li>
+                        <a style="background-color: #3e72c3;color:yellow;" href="BCK_WLF_ONLINE/Under_Maintenance.aspx.html">
+                            KAWF Login
+                        </a>
+                    </li>
+                </ul>
+
+
+                <iframe id="DisplayPageDiv" style="width:100%;  height:auto; border:0px;">
+                    Display Content Area
+                </iframe>
+			</div>
+			<!--Right News Division-->
+			<div class="RightNewsDiv">
+				<iframe id="NewsEventDiv" style="width: 100%; height:400px !important; border: 0px;" src="NewsAndEvents.html">
+					News and Event Page
+				</iframe>
+			</div>
+		</div>
+		<div style="clear:both"></div>
+		<!-- END CONTENT 
+	============================================= -->
+		<div class="gap"></div>
+		<!-- FOOTER 
+	============================================= -->
+		<div class="footer">
+			<!-- Copyright Area -->
+			<div class="b-copyright">
+				<div class="layout">
+					<!-- Copyright Text -->
+					<span class="copy">Copyright &copy 2013. All Right Reserved. Website Developed by <a href="http://www.clouddatalabs.net" target="_blank">Cloud Data Labs</a></span>
+
+				</div>
+			</div>
+		</div>
+		<!-- END FOOTER 
+	============================================= -->
+
+		<!-- STYLE SWITCHER 
+	============================================= -->
+		<div class="b-settings-panel">
+			<div class="settings-section">
+				<span>
+					Boxed
+				</span>
+				<div class="b-switch">
+					<div class="switch-handle"></div>
+				</div>
+				<span>
+					Wide
+				</span>
+			</div>
+
+			<hr class="dashed" style="margin: 15px 0px;">
+
+			<h5>Main Background</h5>
+			<div class="settings-section bg-list">
+				<div class="bg-wood_pattern"></div>
+				<div class="bg-shattered"></div>
+				<div class="bg-vichy"></div>
+				<div class="bg-random-grey-variations"></div>
+				<div class="bg-irongrip "></div>
+				<div class="bg-gplaypattern"></div>
+				<div class="bg-diamond_upholstery"></div>
+				<div class="bg-denim"></div>
+				<div class="bg-crissXcross"></div>
+				<div class="bg-climpek"></div>
+			</div>
+
+			<hr class="dashed" style="margin: 15px 0px;">
+
+			<h5>Color Scheme</h5>
+			<div class="settings-section color-list">
+				<div data-src="css/color-scheme/grass-green.css" style="background: #64be33"></div>
+				<div data-src="css/color-scheme/green.css" style="background: #2bba57"></div>
+				<div data-src="css/color-scheme/turquoise.css" style="background: #2eafbb"></div>
+				<div data-src="css/color-scheme/blue.css" style="background: #5489de"></div>
+				<div data-src="css/color-scheme/klein-blue.css" style="background: #4874cd"></div>
+				<div data-src="css/color-scheme/purple.css" style="background: #7e47da"></div>
+				<div data-src="css/color-scheme/pink.css" style="background: #ea5192"></div>
+				<div data-src="css/color-scheme/red.css" style="background: #e34735"></div>
+				<div data-src="css/color-scheme/orange.css" style="background: #ff6029"></div>
+			</div>
+			<!-- <div class="btn-settings"></div>-->
+		</div>
+		<!-- END STYLE SWITCHER 
+	============================================= -->
+
+	</div>
+	<!-- END MAIN 
+============================================= -->
+</body>
+
+</html>
