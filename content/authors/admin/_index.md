@@ -183,8 +183,4 @@ awards:
 
 ## About Me
 
-Binu A, Assistant Professor, Dept. of Artificial Intelligence, Rajagiri School of Engineering & Technology, Kochi. He is a recipient of the prestigious IEEE STEM Ambassadorship for Asia Pacific Region from Institute of Electrical and Electronics Engineers, based on his contributions to STEM activities in the pre-university segment. He is also recognized as a Mentor of Change by NITI Ayog, Govt. of India. He was a Member in Regional Consultative Committee on New Education Policy – Promoting Open and Distance Learning (ODL) and Online Courses. He serves on the committee responsible for drafting the students' and teachers' manuals for the Python programming language for CBSE. He is a resource person of CBSE - Centre of Excellence for faculty improvement programmes on Computer Science stream. He is a Cyber Security Trainer for Kochi City Police, Regional Outreach Bureau, Govt.of India and Nehru Yuva Kendra, Govt. of India.  
-
-Furthermore, Binu has made significant contributions to various R&D projects and consultancy services, including Kochi Metro Rail Ltd and Bar Council of Kerala. Binu is additionally engaged as a domain expert with various organizations, including the project of IT automation project of Guruvayur Devaswom by Tata Consultancy Services, Telengana on Temple Solutions, and Law Qube Technologies, Technopark on Digital Document Workflow Automation. 
-
-Recently, he has been included in the National Working Group for Quantum Technology under the National Mission on Quantum Computing, Govt. of India.
+Binu A, Assistant Professor, Dept. of Artificial Intelligence, Rajagiri School of Engineering & Technology, Kochi. He is a recipient of the prestigious IEEE STEM Ambassadorship for Asia Pacific Region from Institute of Electrical and Electronics Engineers, based on his contributions to STEM activities in the pre-university segment. He is also recognized as a Mentor of Change by NITI Ayog, Govt. of India. 
