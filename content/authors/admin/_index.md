@@ -38,9 +38,9 @@ profiles:
 #  - icon: brands/instagram
 #    url: https://www.instagram.com/
 #  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+#    url: https://github.com/gcushen
+#  - icon: brands/linkedin
+#    url: https://www.linkedin.com/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
@@ -52,37 +52,37 @@ interests:
   - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+#  - area: PhD Artificial Intelligence
+#    institution: Stanford University
+#    date_start: 2016-01-01
+#    date_end: 2020-12-31
+#    summary: |
+#      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+#    button:
+#      text: 'Read Thesis'
+#      url: 'https://example.com'
+#  - area: MEng Artificial Intelligence
+#    institution: Massachusetts Institute of Technology
+#    date_start: 2016-01-01
+#    date_end: 2020-12-31
+#    summary: |
+#      GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      Courses included:
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - area: BSc Artificial Intelligence
+#    institution: Massachusetts Institute of Technology
+#    date_start: 2016-01-01
+#    date_end: 2020-12-31
+#    summary: |
+#      GPA: 3.4/4.0
+#      
+#      Courses included:
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -183,4 +183,8 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Binu A, Assistant Professor, Dept. of Artificial Intelligence, Rajagiri School of Engineering & Technology, Kochi. He is a recipient of the prestigious IEEE STEM Ambassadorship for Asia Pacific Region from Institute of Electrical and Electronics Engineers, based on his contributions to STEM activities in the pre-university segment. He is also recognized as a Mentor of Change by NITI Ayog, Govt. of India. He was a Member in Regional Consultative Committee on New Education Policy – Promoting Open and Distance Learning (ODL) and Online Courses. He serves on the committee responsible for drafting the students' and teachers' manuals for the Python programming language for CBSE. He is a resource person of CBSE - Centre of Excellence for faculty improvement programmes on Computer Science stream. He is a Cyber Security Trainer for Kochi City Police, Regional Outreach Bureau, Govt.of India and Nehru Yuva Kendra, Govt. of India.  
+
+Furthermore, Binu has made significant contributions to various R&D projects and consultancy services, including Kochi Metro Rail Ltd and Bar Council of Kerala. Binu is additionally engaged as a domain expert with various organizations, including the project of IT automation project of Guruvayur Devaswom by Tata Consultancy Services, Telengana on Temple Solutions, and Law Qube Technologies, Technopark on Digital Document Workflow Automation. 
+
+Recently, he has been included in the National Working Group for Quantum Technology under the National Mission on Quantum Computing, Govt. of India.
