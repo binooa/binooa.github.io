@@ -1,1 +1,19 @@
 /* css styles */
+.quarto-title-block .subtitle {
+  font-size: 0.95rem;   /* slightly smaller than default */
+  font-weight: 400;     /* keep clean */
+  opacity: 0.85;        /* softer appearance */
+}
+
+.navbar {
+  background-color: #0b3d91 !important;  /* dark blue */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ffffff !important;  /* white text */
+}
+
+.navbar .nav-link:hover {
+  color: #cfd8ff !important;  /* light hover */
+}

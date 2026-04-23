@@ -1,6 +1,7 @@
 ---
 title: "Binu A"
-description-meta: "Assistant Professor | Technical Consultant | HPC, Cloud, Edge Systems, AI/ML"
+subtitle: "Assistant Professor | HPC, Edge Systems, and Performance-Aware AI Computing | Technical Consultant"
+description-meta: "Assistant Professor | HPC, Edge Systems, and Performance-Aware AI Computing | Technical Consultant"
 image: "files/images/profile.jpg"
 page-navigation: false
 toc: false
@@ -26,9 +27,15 @@ about:
 
 :::{#hero-heading}
 
-I am **Binu A**, Assistant Professor at **Rajagiri School of Engineering and Technology, Kochi**, with over **17 years of experience** in engineering education, research, and consultancy. My work focuses on **High Performance Computing, Distributed Systems, Cloud and Edge Computing, Artificial Intelligence & Machine Learning, System Performance Optimization, and Full Stack Software Solutions**.
+Binu A is an Assistant Professor in the Department of Information Technology at Rajagiri School of Engineering and Technology (Autonomous), Kochi. With over 17 years of experience, his work spans engineering education, system design, and applied research in computing systems.
 
-I actively engage in **academic research, infrastructure development, and consultancy for government and autonomous bodies**, contributing to e-Governance systems, digital platforms, and large-scale computing environments.
+His technical focus includes High Performance Computing, distributed and parallel systems, cloud and edge computing, and performance-oriented computing for AI workloads. His research and ongoing doctoral work address microarchitecture-aware performance analysis and optimization of inference workloads on CPU-based edge systems, with emphasis on computation–memory interaction and system-level efficiency.
+
+He leads academic and technical initiatives related to computing infrastructure, including High Performance Computing and cloud-based environments, supporting both research and large-scale data processing needs. His teaching covers core areas such as distributed computing, high performance computing, and multi-core architectures, along with contributions to curriculum design, academic auditing, and accreditation processes.
+
+Beyond academia, he has contributed as a technical consultant and systems architect for multiple government and autonomous bodies, working on e-Governance platforms, digital archival systems, learning management systems, and institutional software solutions. His engagements involve system design, validation, migration, and deployment of large-scale digital infrastructure across public sector organisations.
+
+His professional recognitions include selection as Mentor of Change under NITI Aayog and IEEE STEM Ambassador (Region 10), along with roles in academic review, policy discussions, and national-level technical initiatives. His work integrates research, implementation, and advisory roles, focusing on practical and scalable computing solutions.
 
 ---
 
@@ -81,7 +88,7 @@ I have also contributed to:
 
 ## Research, Labs, and Technical Leadership
 
-I lead and support research initiatives in **HPC and cloud-based systems**, including:
+I lead and support research initiatives in HPC and cloud-based systems, including:
 
 - Establishment and management of HPC infrastructure  
 - Cluster deployment and maintenance  
