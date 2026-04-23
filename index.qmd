@@ -1,10 +1,9 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "Binu A"
+description-meta: "Assistant Professor | Technical Consultant | HPC, Cloud, Edge Systems, AI/ML"
+image: "files/images/profile.jpg"
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
 
 about:
@@ -12,85 +11,185 @@ about:
   template: trestles
   image-width: 70%
   links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
     - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
+      text: Website
+      href: https://binooa.github.io/
       target: _blank
     - icon: envelope
       text: E-mail
-      href: mailto:email@gmail.com    
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
+      href: mailto:binu_a@rajagiritech.edu.in
+    - icon: globe
+      text: IRINS Profile
+      href: https://rajagiritech.irins.org/profile/301126
       target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
-  - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
-      - "date desc"
-      - "title asc"
 ---
 
 :::{#hero-heading}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+I am **Binu A**, Assistant Professor at **Rajagiri School of Engineering and Technology, Kochi**, with over **17 years of experience** in engineering education, research, and consultancy. My work focuses on **High Performance Computing, Distributed Systems, Cloud and Edge Computing, Artificial Intelligence & Machine Learning, System Performance Optimization, and Full Stack Software Solutions**.
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+I actively engage in **academic research, infrastructure development, and consultancy for government and autonomous bodies**, contributing to e-Governance systems, digital platforms, and large-scale computing environments.
 
-I can automatically generate a neat publication list from an Excel file and enabling categories and filters.
+---
 
-Check [README.md](https://github.com/drganghe/quarto-academic-website-template/blob/main/README.md) for more detailed instructions.
+## Current Roles
 
-## Experience
+- Assistant Professor, Department of Information Technology, RSET  
+- Faculty In-Charge, Systems & Distributed Computing Research Group  
+- Faculty In-Charge, Sunya Lab – High Performance Computing Lab  
+- Technical Consultant – Software Systems, Cloud Platforms, AI/ML, Digital Infrastructure  
 
-- Researcher, Univerisity
+---
 
-## Education
+## Academic Background
 
-- PhD, Univerisity
+- PhD in Computer Science (Pursuing), CUSAT  
+- M.Tech in Software Engineering, CUSAT  
+- B.Tech in Computer Science and Engineering, CUSAT  
+
+---
+
+## Areas of Expertise
+
+- High Performance Computing  
+- Distributed and Parallel Computing  
+- Cloud Computing and Virtualization  
+- Edge Computing Systems  
+- Artificial Intelligence and Machine Learning  
+- System Performance Tuning  
+- Full Stack Software Development  
+- Learning Management Systems and Digital Archival Platforms  
+- Networking and IT Infrastructure  
+
+---
+
+## Teaching and Academic Contributions
+
+I have extensive teaching and mentoring experience at UG and PG levels in areas such as:
+
+- Distributed Computing  
+- Distributed Algorithms  
+- High Performance Computing  
+- Multi-Core Architecture and Programming  
+
+I have also contributed to:
+- Curriculum development and syllabus revision  
+- Accreditation processes (NBA, NAAC, Autonomous)  
+- Academic administration and departmental leadership  
+
+---
+
+## Research, Labs, and Technical Leadership
+
+I lead and support research initiatives in **HPC and cloud-based systems**, including:
+
+- Establishment and management of HPC infrastructure  
+- Cluster deployment and maintenance  
+- GPU computing and performance optimization  
+- OpenStack-based cloud environments  
+- Compiler optimizations and system-level tuning  
+
+Sunya Lab at RSET supports:
+- HPC computing  
+- Cloud computing  
+- Applied research and innovation  
+
+---
+
+## Consultancy and Professional Engagements
+
+I have worked as consultant, architect, and technical advisor for multiple institutions and government-affiliated bodies, including:
+
+- Guruvayur Devaswom Board  
+- Kerala Public Service Commission  
+- Kerala High Court  
+- Kochi City Police Commissionerate  
+- Bar Council of Kerala  
+- ICFOSS (Govt. of Kerala)  
+- Cochin University of Science and Technology  
+- Various academic institutions and professional bodies  
+
+Areas of contribution include:
+- e-Governance platforms  
+- Learning Management Systems  
+- Digital archiving systems  
+- Cloud deployment and IT infrastructure  
+- Online examination and publication systems  
+
+---
+
+## Recognitions and Professional Service
+
+- Mentor of Change – NITI Aayog, Govt. of India  
+- IEEE STEM Ambassador (Region 10, Asia Pacific)  
+- Reviewer – IEEE Transactions on Intelligent Transportation Systems  
+- Academic Auditor – APJ Abdul Kalam Technological University  
+- Subject Expert – Multiple universities and academic bodies  
+- Keynote Speaker – IEEE and academic conferences  
+
+---
+
+## Funded Projects and Applied Work
+
+I have contributed to multiple funded and applied projects in areas such as:
+
+- Traffic Data Analytics (Kochi Metro / KMTA)  
+- AI-based Video Surveillance Systems  
+- Academic Document Archival Systems  
+- Cloud and Data Analytics Platforms  
+- Healthcare and Monitoring Systems  
+- Edge-based intelligent computing systems  
+
+Roles include:
+- Principal Investigator (PI)  
+- Co-Principal Investigator (Co-PI)  
+- Architect / Advisor / Developer  
+
+---
+
+## Workshops, Conferences, and Outreach
+
+I have conducted and contributed to workshops on:
+
+- Software Defined Networking  
+- Private Cloud Deployment  
+- Big Data Platforms  
+- GPU and CUDA Programming  
+- Internet of Things  
+- Learning Management Systems  
+- Android Programming  
+
+Also served as:
+- Program Chair  
+- Event Chair  
+- Organising Committee Member  
+- IEEE and ACM event contributor  
+
+---
+
+## Publications, Books, and Patents
+
+My academic work includes:
+
+- IEEE and international conference publications  
+- Research in cloud computing, distributed systems, and analytics  
+- Books on programming and problem solving  
+- Patents in:
+  - AI-based surveillance systems  
+  - Intelligent monitoring systems  
+  - Edge computing performance systems  
+
+---
+
+## Certifications and Technical Training
+
+- IBM AIX Administration  
+- IBM Rational Software Architect  
+- CUDA Programming (IISc Bangalore)  
+- DSpace and Digital Library Systems  
+- Requirement Engineering and UML  
+- Software Development for Portable Devices  
+
+---
 
 :::
-
-
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
-
-:::{#recent-posts}
-:::
-
-<p align="right">[All Posts »](/posts.qmd)</p>

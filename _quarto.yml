@@ -5,18 +5,18 @@ project:
     - python xlsx_to_yml.py  # Automatically generate publications.yml from publications.xlsx
     
 # Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+description-meta: ""
+author-meta: ""
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
+  title: "Binu A"
+  image: ""
+  description: ""
  
   navbar:
     background: light  # You can change the background color here
 
-    left:   # You can comment out all navigation items here if you just like to keep the index page only
+    right:   # You can comment out all navigation items here if you just like to keep the index page only
 #      - text: Home
 #        href: index.qmd
       - text: About
@@ -46,7 +46,7 @@ website:
       - text: Group   # Comment the Group part out to remove the Group page
         href: people.qmd
 
-    right: 
+
       - text: CV
         href: files/nsf-biosketch.pdf
       - icon: github
@@ -63,7 +63,7 @@ website:
   
   page-footer: 
     left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
+    center: ""
     right:  
       - icon: github
         href: https://github.com/drganghe/quarto-academic-website-template
