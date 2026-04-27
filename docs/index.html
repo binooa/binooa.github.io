@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
+<meta name="author" content="Binu A">
 <meta name="description" content="Assistant Professor | HPC, Edge Systems, and Performance-Aware AI Computing | Technical Consultant">
 
 <title>Binu A</title>
@@ -44,8 +44,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-31eaf266902e15e6572a3934ae2616ee.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,23 +80,42 @@ gtag('js', new Date());
 gtag('config', '', { 'anonymize_ip': true});
 </script>
 
+
 <!-- 
+
 Load Academicons v1: https://jpswalsh.github.io/academicons/
+
 -->
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
 
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
+
+
+
 <!---
+
 The following code are needed to show dimension citation and altmetrics.
+
 https://api.altmetric.com/embeds.html
+
 https://badge.dimensions.ai/
+
 --->
+
+
 
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 
+
+
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
 
 <script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
@@ -106,11 +123,11 @@ https://badge.dimensions.ai/
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Binu A">
 <meta property="og:description" content="Assistant Professor | HPC, Edge Systems, and Performance-Aware AI Computing | Technical Consultant">
-<meta property="og:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/profile.jpg">
+<meta property="og:image" content="/files/images/profile.jpg">
 <meta property="og:site_name" content="Binu A">
 <meta name="twitter:title" content="Binu A">
 <meta name="twitter:description" content="Assistant Professor | HPC, Edge Systems, and Performance-Aware AI Computing | Technical Consultant">
-<meta name="twitter:image" content="https://drganghe.github.io/quarto-academic-website-template/files/images/profile.jpg">
+<meta name="twitter:image" content="/files/images/profile.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -131,18 +148,22 @@ https://badge.dimensions.ai/
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-profile" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Profile</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-profile">    
         <li>
-    <a class="dropdown-item" href="./posts.html#category=news">
- <span class="dropdown-text">News</span></a>
+    <a class="dropdown-item" href="./about.qmd">
+ <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./posts.html#category=event">
- <span class="dropdown-text">Events</span></a>
+    <a class="dropdown-item" href="./files/binu-a-cv.pdf">
+ <span class="dropdown-text">CV</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./contact.html">
@@ -156,60 +177,92 @@ https://badge.dimensions.ai/
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="./pub-listing.html">
- <span class="dropdown-text">Publications Listing</span></a>
+    <a class="dropdown-item" href="./research.qmd">
+ <span class="dropdown-text">Research Areas</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./publications.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./posts.html#category=paper">
+    <a class="dropdown-item" href="./selected-papers.qmd">
  <span class="dropdown-text">Selected Papers</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="./books.qmd">
+ <span class="dropdown-text">Books</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./patents.qmd">
+ <span class="dropdown-text">Patents</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./projects.html">
- <span class="dropdown-text">Grants</span></a>
+ <span class="dropdown-text">Grants and Projects</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-teaching">    
+        <li>
+    <a class="dropdown-item" href="./teaching-ug.qmd">
+ <span class="dropdown-text">UG Teaching</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./teaching-pg.qmd">
+ <span class="dropdown-text">PG Teaching</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./teaching.html">
+ <span class="dropdown-text">Course Materials</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-professional" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Professional</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-professional">    
+        <li>
+    <a class="dropdown-item" href="./industry.qmd">
+ <span class="dropdown-text">Industry Collaboration</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./consultancy.qmd">
+ <span class="dropdown-text">Consultancy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./professional-activities.qmd">
+ <span class="dropdown-text">Professional Activities</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-outreach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Outreach</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-outreach">    
         <li>
-    <a class="dropdown-item" href="./posts.html#category=presentation">
- <span class="dropdown-text">Presentations</span></a>
+    <a class="dropdown-item" href="./outreach-activities.qmd">
+ <span class="dropdown-text">Outreach Activities</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./presentations.qmd">
+ <span class="dropdown-text">Talks and Presentations</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts.html#category=event">
+ <span class="dropdown-text">Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts.html#category=news">
+ <span class="dropdown-text">News</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./people.html"> 
-<span class="menu-text">Group</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./files/nsf-biosketch.pdf"> 
-<span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank"> 
-<span class="menu-text"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./posts.xml" target="_blank"> <i class="bi bi-rss" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -551,7 +604,7 @@ https://badge.dimensions.ai/
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("^(?:http:|https:)\/\/drganghe\.github\.io\/custom");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -887,24 +940,25 @@ https://badge.dimensions.ai/
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<a href="http://www.github.com">Your Name</a> ©
+©
 <script>document.write(new Date().getFullYear())</script>
+<p><a href="./index.html">Binu A</a></p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
-    </div>
+<p>Department of Artificial Intelligence and Data Science, Rajagiri School of Engineering &amp; Technology</p>
+</div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./contact.html">
+<p>Contact</p>
+</a>
+  </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/drganghe/quarto-academic-website-template" target="_blank">
+    <a class="nav-link" href="https://github.com/" target="_blank">
       <i class="bi bi-github" role="img">
 </i> 
     </a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="https://bsky.app" target="_blank">
-<p><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></p>
-</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link" href="./posts.xml" target="_blank">
